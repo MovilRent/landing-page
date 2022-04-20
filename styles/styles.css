@@ -1,0 +1,74 @@
+.body{
+    margin: 0;
+    padding: 0;
+}
+
+#cover{
+    margin: 0;
+    height: 80vh;
+    background-image: url("../media/img_portada.jpg");
+    background-size: cover;
+}
+
+.title{
+    padding-top: 20vh;
+    color: white;
+    text-align: center;
+    font-family: Roboto, sans-serif;
+    font-size: 2.5rem;
+}
+
+.subtitle{
+    padding-top: 10vh;
+    color: white;
+    text-align: center;
+    font-family: "Roboto Light", sans-serif;
+    font-size: 1.5rem;
+}
+
+#call-to-action-cover{
+    margin-top: 10vh;
+    align-self: center;
+}
+
+#sections{
+    height: 100%;
+    background: linear-gradient(180deg, rgba(81,141,160,1) 0%, rgba(255,255,255,1) 100%);
+}
+
+@media (min-width: 0) and (max-width: 800px){
+    .title{
+        padding-top: 20vh;
+        color: white;
+        text-align: center;
+        font-family: Roboto, sans-serif;
+        font-size: 1.5rem;
+    }
+
+    .subtitle{
+        padding-top: 10vh;
+        color: white;
+        text-align: center;
+        font-family: "Roboto Light", sans-serif;
+        font-size: 1rem;
+    }
+}
+
+@media (min-width: 800px) and (max-width: 1200px){
+    .title{
+        padding-top: 20vh;
+        color: white;
+        text-align: center;
+        font-family: Roboto, sans-serif;
+        font-size: 2rem;
+    }
+
+    .subtitle{
+        padding-top: 10vh;
+        color: white;
+        text-align: center;
+        font-family: "Roboto Light", sans-serif;
+        font-size: 1.5rem;
+    }
+
+}
