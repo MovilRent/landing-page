@@ -14,16 +14,21 @@
     padding-top: 20vh;
     color: white;
     text-align: center;
-    font-family: Roboto, sans-serif;
-    font-size: 2.5rem;
+    font-family: 'Inter', sans-serif;
+    font-size: 4rem;
 }
 
 .subtitle{
     padding-top: 10vh;
     color: white;
     text-align: center;
-    font-family: "Roboto Light", sans-serif;
-    font-size: 1.5rem;
+    font-family: 'Inter', sans-serif;
+    font-size: 2rem;
+    font-weight: lighter;
+}
+
+.image_quienessomos{
+    padding: 5vw;
 }
 
 #call-to-action-cover{
@@ -36,12 +41,42 @@
     background: linear-gradient(180deg, rgba(81,141,160,1) 0%, rgba(255,255,255,1) 100%);
 }
 
-@media (min-width: 0) and (max-width: 800px){
+.quienessomos{
+    padding-top: 2vh;
+    font-family: "Inter", sans-serif;
+    text-align: center;
+}
+
+.container {
+    font-family: 'Inter', sans-serif;
+    padding-top: 50px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image_qs {
+    align-items: center;
+    width: 30vw;
+}
+.container p
+{
+    font-weight: lighter;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.column-md{
+    align-items: center;
+}
+
+@media (min-width: 0px) and (max-width: 800px){
     .title{
         padding-top: 20vh;
         color: white;
         text-align: center;
-        font-family: Roboto, sans-serif;
+        font-family: 'Inter', sans-serif;
         font-size: 1.5rem;
     }
 
@@ -49,9 +84,21 @@
         padding-top: 10vh;
         color: white;
         text-align: center;
-        font-family: "Roboto Light", sans-serif;
+        font-family: 'Inter Light', sans-serif;
         font-size: 1rem;
     }
+    .image_qs {
+        align-items: center;
+        width: 300px;
+    }
+    .container p
+    {
+        font-weight: lighter;
+        text-align: center;
+        font-size: 1rem;
+        margin-top: 2vw;
+    }
+
 }
 
 @media (min-width: 800px) and (max-width: 1200px){
@@ -59,7 +106,7 @@
         padding-top: 20vh;
         color: white;
         text-align: center;
-        font-family: Roboto, sans-serif;
+        font-family: 'Inter', sans-serif;
         font-size: 2rem;
     }
 
@@ -67,7 +114,17 @@
         padding-top: 10vh;
         color: white;
         text-align: center;
-        font-family: "Roboto Light", sans-serif;
+        font-family: "Inter Light", sans-serif;
+        font-size: 2rem;
+    }
+    .image_qs {
+        align-items: center;
+        width: 350px;
+    }
+    .container p
+    {
+        font-weight: lighter;
+        text-align: center;
         font-size: 1.5rem;
     }
 
