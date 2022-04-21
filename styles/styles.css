@@ -42,9 +42,20 @@
 }
 
 .quienessomos{
-    padding-top: 2vh;
+    padding-top: 5vh;
     font-family: "Inter", sans-serif;
     text-align: center;
+}
+
+.testimonios{
+    padding-top: 10vh;
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+#bold_ts{
+    font-weight: bold;
 }
 
 .container {
@@ -59,7 +70,14 @@
 .image_qs {
     align-items: center;
     width: 30vw;
+    border-radius: 10px;
 }
+
+.image_ts {
+    width: 13vw;
+    border-radius: 50%;
+}
+
 .container p
 {
     font-weight: lighter;
