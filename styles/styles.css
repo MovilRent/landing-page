@@ -72,3 +72,58 @@
     }
 
 }
+
+
+/*Quienes Somos*/
+
+
+
+.container_qs
+{
+    /*background-color: #518DA0;*/
+    font-family: 'Inter', sans-serif;
+    margin: auto;
+}
+.container_qs h1
+{
+    text-align: center;
+    font-weight: normal;
+    font-size: 32pt;
+}
+.container_qs img
+{
+    float: left;
+    padding-right: 20px;
+    padding-left: 15px;
+    width: 50%;
+}
+.container_qs p
+{
+    padding: 60px;
+    font-weight: lighter;
+    text-align: center;
+    font-size: 18pt;
+
+}
+@media only screen and (max-width: 430px)
+{
+    .container_qs img
+    {
+        width: 69%;
+        float: none;
+    }
+    .container_qs
+    {
+        text-align: center;
+    }
+    .container_qs h1
+    {
+        font-size: 25pt;
+    }
+    .container_qs p
+    {
+        font-size: 15pt;
+        margin: auto;
+        padding: 40px;
+    }
+}
