@@ -88,7 +88,6 @@
 .column-md{
     align-items: center;
 }
-
 .card{
     margin: 3vw;
 }
@@ -137,15 +136,12 @@ footer{
 .content_data, .content_data2{
     margin-top: 25px
 }
-
-
 .que-ofrecemos{
     padding-top: 10vh;
     font-family: "Inter", sans-serif;
     font-weight: bold;
     text-align: center;
 }
-
 
 @media (min-width: 0px) and (max-width: 800px){
     .title{
