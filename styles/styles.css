@@ -74,7 +74,7 @@
 }
 
 .image_ts {
-    width: 13vw;
+    width: 13rem;
     border-radius: 50%;
 }
 
@@ -88,6 +88,10 @@
 .column-md{
     align-items: center;
 }
+.card{
+    margin: 3vw;
+}
+
 footer{
     position: absolute;
     width:100%;
@@ -131,6 +135,12 @@ footer{
 }
 .content_data, .content_data2{
     margin-top: 25px
+}
+.que-ofrecemos{
+    padding-top: 10vh;
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    text-align: center;
 }
 
 @media (min-width: 0px) and (max-width: 800px){
