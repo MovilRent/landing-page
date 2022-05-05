@@ -59,6 +59,12 @@
     font-family: "Inter", sans-serif;
     text-align: center;
 }
+.about_product {
+    text-align: center;
+}
+.about_team {
+    text-align: center;
+}
 
 #boton{
     margin-top: 3rem;
