@@ -201,6 +201,19 @@ footer{
     .Content {
         margin: 0 0 50px 150px;
     }
+	.embed-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+	}
+	.embed-container iframe {
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+	}
 }
 
 @media (min-width: 800px) and (max-width: 1200px){
